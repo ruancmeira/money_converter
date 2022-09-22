@@ -24,17 +24,27 @@ Autenticação via Laravel Auth utilizando o front-end do bootstrap via Laravel 
 
 Histórico das conversões foi criado uma tabela com paginação abaixo do formulário de conversão para mostrar as cotações retroativas.
 
+Linguagens:
+  - PHP 8.1;
+  - Laravel 9;
+  - Bootstrap 5;
+  - PostgreSQL;
+
 Libs:
   - Toast;
   - Jquery mask money;
   - Select2;
   
 Instalação:
+  - Clone do projeto em alguma pasta que preferir (git clone https://github.com/ruancmeira/money_converter.git)
   - Duplicar o arquivo .env.example removendo o .example do nome do arquivo;
   - Rodar o comando de instalação dos componentes do composer (composer install);
+  - Rodar os comandos para instalação dos pacotes do front via Node (npm install && npm run build);
   - Deve criar um banco de dados no seu localhost no pgadmin4 chamado oliveira_trust_money_converter; 
   - Agora pode rodar o comando para rodar as migrações das tabelas (php artisan migrate);
   - Por fim para rodar o projeto deverá rodar o comando para subir o servidor laravel (php artisan serve);
+
+Para realizar o cadastro, na tela inicial 127.0.0.1:8000 no canto superior direito tem os links para login e register;
 
 
 
