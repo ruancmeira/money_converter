@@ -46,6 +46,8 @@ Instalação:
 
 Para realizar o cadastro, na tela inicial 127.0.0.1:8000 no canto superior direito tem os links para login e register;
 
+Link para o vídeo de apresentação do projeto:
+https://www.loom.com/share/a4ffca6a3d604361848f62f8f94fd7a0
 
 
 <!-- # Oliveira Trust PHP Money Converter
